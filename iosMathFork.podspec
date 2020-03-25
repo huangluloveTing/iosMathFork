@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name         = "iosMathFork"
-  s.version      = "1.0.2"
-  s.summary      = "Math equation rendering for iOS and OS X"
+  s.version      = "1.0.3"
+  s.summary      = "Math equation rendering for iOS"
   s.description  = <<-DESC
   iosMath 与 SDWebImage 有冲突，修改源码发布的pod
                    DESC
