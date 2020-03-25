@@ -1,0 +1,16 @@
+PODS:
+  - iosMath (0.9.5)
+
+DEPENDENCIES:
+  - iosMath (from `./`)
+
+EXTERNAL SOURCES:
+  iosMath:
+    :path: "./"
+
+SPEC CHECKSUMS:
+  iosMath: 4f464433551995d8761ae0c44da88405f5e68ff8
+
+PODFILE CHECKSUM: bade56080a0531a08830155fc215a0a5b44dd183
+
+COCOAPODS: 1.9.1
