@@ -11,6 +11,8 @@
 #import "NSColor+MathHexString.h"
 #if !TARGET_OS_IPHONE
 
+@implementation NSColor (MathHexString)
+
 + (NSColor *)colorFromHexString:(NSString *)hexString {
     if ([hexString isEqualToString:@""]) {
         return nil;
