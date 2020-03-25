@@ -5,12 +5,12 @@ Pod::Spec.new do |s|
   s.description  = <<-DESC
   iosMath 与 SDWebImage 有冲突，修改源码发布的pod
                    DESC
-  s.homepage     = "https://github.com/huangluloveTing/iosMath"
+  s.homepage     = "https://github.com/huangluloveTing/iosMathFork"
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author       = { "huanglu" => "583699255@qq.com" }
   s.ios.deployment_target = '6.0'
   s.osx.deployment_target = '10.8'
-  s.source       = { :git => "https://github.com/huangluloveTing/iosMath.git", :tag => s.version.to_s }
+  s.source       = { :git => "https://github.com/huangluloveTing/iosMathFork.git", :tag => s.version.to_s }
   s.source_files = 'iosMath/**/*.{h,m}'
   s.private_header_files = 'iosMath/render/internal/*.h'
   s.resource_bundles = {
