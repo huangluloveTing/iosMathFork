@@ -6,9 +6,6 @@
 //
 
 #import "NSColor+MathHexString.h"
-
-
-#import "NSColor+MathHexString.h"
 #if !TARGET_OS_IPHONE
 
 @implementation NSColor (MathHexString)
