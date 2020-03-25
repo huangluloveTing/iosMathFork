@@ -8,8 +8,8 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/huangluloveTing/iosMathFork"
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author       = { "huanglu" => "583699255@qq.com" }
-  s.ios.deployment_target = '6.0'
-  s.osx.deployment_target = '10.8'
+  s.ios.deployment_target = '8.0'
+#   s.osx.deployment_target = '10.8'
   s.source       = { :git => "https://github.com/huangluloveTing/iosMathFork.git", :tag => s.version.to_s }
   s.source_files = 'iosMath/**/*.{h,m}'
   s.private_header_files = 'iosMath/render/internal/*.h'
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   }
   s.frameworks = "CoreGraphics", "QuartzCore", "CoreText"
   s.ios.frameworks = "UIKit"
-  s.osx.frameworks = "AppKit"
+#   s.osx.frameworks = "AppKit"
   s.requires_arc = true
 end
 
